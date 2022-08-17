@@ -12,7 +12,7 @@ tt.hideturtle()                                                  # Hide the Pen 
 colors_pen = ['green', 'white', 'blue', 'yellow', 'pink', 'purple', 'violet', 'gray']
 colors_fill = ['green', 'blue', 'white', 'yellow', 'pink', 'purple', 'violet', 'gray']
 tt.speed('fastest')                                      
-def gg():
+def pp():
     for i in range(16): 
         
         x,y = random.randrange(-350,350),random.randrange(-230,230)
@@ -42,7 +42,7 @@ def gg():
             tt.right(144)
         tt.end_fill() 
 while True:  
-    gg() 
+    pp() 
     tt.clear() 
 turtle.mainloop()
 
